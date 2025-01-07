@@ -166,8 +166,8 @@ def menu():
     
 if __name__ == "__main__":
     print(art)
-    username = '2251272726'
-    password = '001204038938'
+    username = ''
+    password = ''
     
     student = Student(username, password)
     if not student.token:
